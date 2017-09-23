@@ -132,7 +132,7 @@ module.exports = {
 
     // disallow octal escape sequences in string literals
     'no-octal-escape': 'error',
-
+    'no-mixed-spaces-and-tabs': ["error", "smart-tabs"],
     // disallow the use of the __proto__ property
     'no-proto': 'error',
 
