@@ -52,7 +52,7 @@ module.exports = {
 
 
     // 声明了变量，但是没有使用改成警告, 方便开发~
-    'no-unused-vars': 'error',
+    'no-unused-vars': 'warn',
     // disallow unnecessary parentheses
     'no-extra-parens': ['error', 'all', {'nestedBinaryExpressions': false}],
 
