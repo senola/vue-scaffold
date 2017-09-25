@@ -1,7 +1,7 @@
 <template>
   <div>
     <matrixComponent class="bg-demo"></matrixComponent>
-    <p>hello world</p>
+      <p>For senola</p>
   </div>
 </template>
 
@@ -28,7 +28,7 @@
   p {
     position: relative;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 200px;
     font-size: 40px;
     color: #fff;
   }

@@ -5,21 +5,17 @@
  * @time 2017-09-23
  */
 <template>
-  <canvas id="bg_matrix" height="667" width="375" ></canvas>
+  <canvas id="bg_matrix"></canvas>
 </template>
 
 <script>
     export default {
-        name: 'components-list',
         props: {
             dropWords: String,
             wordsColor: String
         },
         data() {
             return {
-                msg: 'Welcome to Your Vue.js App',
-                screenWidth: window.innerWidth,  // 屏幕初始化宽度
-                screenHeight: window.innerHeight, // 屏幕初始化高度
                 timer: null // 定时器
             };
         },
@@ -46,7 +42,7 @@
                 const bgMatrix = document.getElementById('bg_matrix');
                 const ctx = bgMatrix.getContext('2d');
 
-                // 设置cansvas满屏
+                // 设置canvas满屏
                 bgMatrix.height = window.innerHeight;
                 bgMatrix.width = window.innerWidth;
                 ctx.clearRect(0, 0, bgMatrix.width, bgMatrix.height);

@@ -41,7 +41,7 @@ module.exports = {
     // 要求在for-in 中必须有一个if语句
     "guard-for-in": "off",
     //禁止在原型上修改方法
-    "no-extend-native": "error",
+    "no-extend-native": "off",
     // 规定变量命名为驼峰
     "camelcase": [
       "warn",
