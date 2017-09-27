@@ -1,8 +1,9 @@
 <template>
   <div>
     <!--<matrixComponent class="bg-demo"></matrixComponent>-->
-    <p>For senola</p>
-    <paper-plane></paper-plane>
+    <!--<p>For senola</p>-->
+    <!--<paper-plane></paper-plane>-->
+    <starField></starField>
 
   </div>
 </template>
@@ -10,6 +11,7 @@
 <script>
   import matrixComponent from 'components/background/matrix/index';
   import paperPlane from 'components/background/paper-plane/index';
+  import starField from 'components/background/star-field/index';
   export default {
       name: 'components-list',
       data() {
@@ -19,7 +21,8 @@
       },
       components: {
           matrixComponent,
-          paperPlane
+          paperPlane,
+          starField
       }
   };
 </script>
