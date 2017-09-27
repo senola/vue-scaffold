@@ -1,12 +1,15 @@
 <template>
   <div>
-    <matrixComponent class="bg-demo"></matrixComponent>
-      <p>For senola</p>
+    <!--<matrixComponent class="bg-demo"></matrixComponent>-->
+    <p>For senola</p>
+    <paper-plane></paper-plane>
+
   </div>
 </template>
 
 <script>
-  import matrixComponent from 'components/background/matrix/matrix';
+  import matrixComponent from 'components/background/matrix/index';
+  import paperPlane from 'components/background/paper-plane/index';
   export default {
       name: 'components-list',
       data() {
@@ -15,7 +18,8 @@
           };
       },
       components: {
-          matrixComponent
+          matrixComponent,
+          paperPlane
       }
   };
 </script>
@@ -31,5 +35,6 @@
     padding-top: 200px;
     font-size: 40px;
     color: #fff;
+    z-index: 5;
   }
 </style>
