@@ -11,7 +11,7 @@
 <script>
   import matrixComponent from 'components/background/matrix/index';
   import paperPlane from 'components/background/paper-plane/index';
-  import starField from 'components/background/star-field/index';
+  import starField from 'components/background/star-field/01/index';
   export default {
       name: 'components-list',
       data() {
