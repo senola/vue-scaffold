@@ -159,7 +159,7 @@ module.exports = {
 
     // 规定自执行函数的 被括号包住
     'wrap-iife': [
-      'error',
+      'off',
       'outside'
     ],
 

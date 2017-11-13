@@ -1,9 +1,10 @@
 <template>
   <div>
     <!--<matrixComponent class="bg-demo"></matrixComponent>-->
+    <bubbly theme="theme0"></bubbly>
     <!--<p>For senola</p>-->
     <!--<paper-plane></paper-plane>-->
-    <starField></starField>
+    <!--<starField></starField>-->
 
   </div>
 </template>
@@ -12,6 +13,8 @@
   import matrixComponent from 'components/background/matrix/index';
   import paperPlane from 'components/background/paper-plane/index';
   import starField from 'components/background/star-field/01/index';
+  import bubbly from 'components/background/bubbly/index';
+
   export default {
       name: 'components-list',
       data() {
@@ -22,7 +25,8 @@
       components: {
           matrixComponent,
           paperPlane,
-          starField
+          starField,
+          bubbly
       }
   };
 </script>
