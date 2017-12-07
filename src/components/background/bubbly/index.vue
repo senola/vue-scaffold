@@ -7,7 +7,7 @@
 
 <script>
     export default {
-        name: 'components-list',
+        name: 'bg-bubbly',
         props: {
             theme: String
         },

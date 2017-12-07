@@ -1,7 +1,7 @@
 <template>
   <div>
-    <!--<matrixComponent class="bg-demo"></matrixComponent>-->
-    <bubbly theme="theme0"></bubbly>
+    <matrixComponent class="bg-demo"></matrixComponent>
+    <!--<bubbly theme="theme0"></bubbly>-->
     <!--<p>For senola</p>-->
     <!--<paper-plane></paper-plane>-->
     <!--<starField></starField>-->
